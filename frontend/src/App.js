@@ -1,23 +1,25 @@
 import { Route, Switch } from 'react-router-dom';
+import { Fragment } from 'react';
 
 // components
-import MainPage from './pages/MainPage';
-import NextPage from './pages/NextPage';
+import SignUpPage from './pages/SignUpPage';
+import LoginPage from './pages/LoginPage';
+
 import MainNavigationBar from './components/layout/MainNavigationBar';
 
 function App() {
   return (
-    <div>
+    <Fragment>
       <MainNavigationBar />
       <Switch>
         <Route path='/' exact>
-          <MainPage />
+          <LoginPage />
         </Route>
-        <Route path='/next-page' exact>
-          <NextPage />
+        <Route path='/register' exact>
+          <SignUpPage />
         </Route>
       </Switch>
-    </div>
+    </Fragment>
   );
 }
 

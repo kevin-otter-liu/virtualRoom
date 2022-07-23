@@ -4,14 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #77002e;
-    padding: 0 10%;
+    background-color:#6fa0d8;
   }
   
   .logo {
     font-size: 2rem;
     color: white;
     font-weight: bold;
+    margin-left:1.5rem;
   }
   
   .header ul {
@@ -23,23 +23,24 @@
   }
   
   .header li {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fcb8d2;
+    color: white;
   }
   
   .header a:hover,
   .header a:active,
   .header a.active {
-    color: white;
+    color: rgb(245, 191, 16);
   }
   
   .badge {
-    background-color: #cc2062;
+    background-color: white;
     color: white;
     border-radius: 12px;
     padding: 0 1rem;
