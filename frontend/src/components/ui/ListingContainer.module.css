@@ -1,0 +1,16 @@
+.container{
+    background-color: rgb(91, 171, 245);
+    height: 100vh;
+}
+
+.container ul {
+    list-style: none;
+    margin: 0;
+    padding: 1.5rem;
+    display: block;
+    align-items: center;
+}
+
+.container ul li {
+    margin:10px;
+}
