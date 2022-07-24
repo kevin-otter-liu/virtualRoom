@@ -12,7 +12,9 @@ const MainNavigation = () => {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Virtual Room</div>
+      <a href='/' className={classes.logo}>
+        Virtual Room
+      </a>
       <ul>
         {navBarItems &&
           navBarItems.map((navBarItem) => {
